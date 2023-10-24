@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/countTextView"
+        android:text="@string/countTextView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/ss" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Добавить" />
+
+    <Button
+        android:id="@+id/subButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вычесть 10"
+        android:visibility="invisible" />
+</LinearLayout>
